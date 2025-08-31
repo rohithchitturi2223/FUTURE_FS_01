@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-whiteText transition-colors duration-500;
+}
+
+.dark body {
+  @apply bg-background text-whiteText;
+}
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-slow-spin {
+  animation: spin-slow 10s linear infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 15px rgba(160, 32, 240, 0.4); }
+  50% { box-shadow: 0 0 35px rgba(160, 32, 240, 0.7); }
+}
+.animate-glow {
+  animation: glow-pulse 3s ease-in-out infinite;
+}

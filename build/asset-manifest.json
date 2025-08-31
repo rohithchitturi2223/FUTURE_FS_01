@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a532f570.css",
+    "main.js": "/static/js/main.981ec42e.js",
+    "static/media/rohith.jpg": "/static/media/rohith.2a4827045f3a9237b109.jpg",
+    "static/media/resume.pdf": "/static/media/resume.36e5ba3d48863f691bdf.pdf",
+    "index.html": "/index.html",
+    "main.a532f570.css.map": "/static/css/main.a532f570.css.map",
+    "main.981ec42e.js.map": "/static/js/main.981ec42e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a532f570.css",
+    "static/js/main.981ec42e.js"
+  ]
+}
