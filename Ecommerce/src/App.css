@@ -1,0 +1,124 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #333;
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.carousel-caption h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+/* Hover effect for the product cards */
+.product-card:hover .product-image {
+  transform: scale(1.1);
+}
+
+.product-card {
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+/* Make buttons more modern */
+button {
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green when hovered */
+}
+
+/* Improve link hover effects */
+.nav-link:hover {
+  color: #ff6f61 !important;  /* Warm red on hover */
+}
+/* Primary Colors */
+:root {
+  --primary-color: #4CAF50; /* Green */
+  --secondary-color: #ff6f61; /* Warm red */
+  --background-color: #f7f7f7; /* Light gray */
+  --text-color: #333; /* Dark text */
+  --button-color: #4CAF50; /* Button green */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f8c200; /* Bright yellow navbar */
+}
+
+/* Buttons and Links */
+button {
+  background-color: var(--button-color);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+/* Styling for category sections */
+.category-section {
+  margin-bottom: 40px;
+}
+
+.category-section h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.category-section .row {
+  margin-bottom: 30px;
+}
+.category-section {
+  margin-bottom: 40px;
+}
+
+.category-section h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.category-section .row {
+  margin-bottom: 30px;
+}
